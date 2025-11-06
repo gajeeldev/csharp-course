@@ -9,6 +9,13 @@ partial class Program
     // NumericTypes();
     // StringTypes();
     // SalesReport();
-    SalaryCalculator();
+    // SalaryCalculator();
+    // ManageDateTime();
+    // DaysOfLife();
+    // DaysUntilNextBirthday();
+    // TypeDifference();
+    // HandleNullables();
+    // Operators();
+    Arrays();
   }
 }

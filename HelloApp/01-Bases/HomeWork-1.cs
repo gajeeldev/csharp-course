@@ -8,8 +8,6 @@ partial class Program
   static void SalaryCalculator()
   {
 
-
-
     Console.WriteLine("Calculadora de salario");
     Console.WriteLine();
 
@@ -19,11 +17,11 @@ partial class Program
 
 
     Console.WriteLine("Ingrese las horas trabajadas: ");
-    int hoursWorked = int.Parse(Console.ReadLine());
+    int hoursWorked = int.Parse(Console.ReadLine()!);
     Console.WriteLine();
 
     Console.WriteLine("Ingrese la tarifa por hora: ");
-    double hourlyRate = double.Parse(Console.ReadLine());
+    double hourlyRate = double.Parse(Console.ReadLine()!);
     Console.WriteLine();
 
     double salary = hoursWorked * hourlyRate;
